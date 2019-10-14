@@ -1,0 +1,40 @@
+  #convertColor{
+    border:1px solid gray;
+    border-radius:5px;
+    width:50%;
+    height:30%;
+    margin-top:10px;
+  }
+  .wrapper{
+    display:flex;
+    justify-content:space-around;
+  }
+  .color{
+    margin:10px 0px;
+    display:flex;
+    justify-content:space-between;
+  }
+  #btn{
+    padding:10px;
+    border-radius:6px;
+    cursor:pointer;
+    background-color:#3f7eee;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:#ffffff;
+  }
+  #btn:hover{
+    background-color:black;
+    color:white;
+    letter-spacing: 2px;
+  }
+  .rgbShowColor{
+    width:20px;
+    border:1px solid gray;
+    border-radius:5px;
+    margin-left:10px;
+  }
+  label{
+    margin-right:10px;
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>RGB to Hex Converter</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="RGB-input">
+      <h2>RGB</h2>
+      <div class="redcolor color">
+        <label for="red">R:</label>
+        <input type="text" id="red">
+        <div class="rgbShowColor redColor"></div>
+      </div>
+      <div class="greencolor color">
+        <label for="green">G:</label>
+        <input type="text" id="green">
+        <div class="rgbShowColor greenColor"></div>
+      </div>
+      <div class="bluecolor color">
+        <label for="blue">B:</label>
+        <input type="text" id="blue">
+        <div class="rgbShowColor blueColor"></div>
+      </div>
+      <div class="button">
+        <button id="btn">Convert</button>
+      </div>
+    </div>
+    <div class="hex-convert">
+      <h2>HEX</h2>
+      <label for="hex"></label>
+      <input type="text" id="hex">
+      <div id="convertColor">
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
